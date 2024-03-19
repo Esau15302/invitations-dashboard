@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="dashCards">
+        
+        <div class="dashCard seen">
+            <div class="title">Vistos</div>
+            <div class="body">
+                <div class="icon">
+                    <i class="fa-solid fa-check-double"></i>
+                </div>
+                <div class="value" id="seenDiv">0</div>
+            </div>
+        </div>
+        
+        <div class="dashCard accepted">
+            <div class="title">Aceptados</div>
+            <div class="body">
+                <div class="icon">
+                    <i class="fa-solid fa-user-check"></i>
+                </div>
+                <div class="value" id="acceptedDiv">0</div>
+            </div>
+        </div>
+
+        <div class="dashCard rejected">
+            <div class="title">Rechazados</div>
+            <div class="body">
+                <div class="icon">
+                    <i class="fa-solid fa-user-xmark"></i>
+                </div>
+                <div class="value" id="rejectedDiv">0</div>
+            </div>
+        </div>
+
+        <div class="dashCard pending">
+            <div class="title">Pendientes</div>
+            <div class="body">
+                <div class="icon">
+                    <i class="fa-solid fa-user-clock"></i>
+                </div>
+                <div class="value" id="pendingDiv">0</div>
+            </div>
+        </div>
+
+        <div class="dashCard total">
+            <div class="title">Total</div>
+            <div class="body">
+                <div class="icon">
+                    <i class="fa-solid fa-users"></i>
+                </div>
+                <div class="value" id="totalDiv">0</div>
+            </div>
+        </div>
+        
+        
+    </div>
+      
+
+</body>
+</html>
